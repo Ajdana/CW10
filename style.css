@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient(145deg, #d587ff, #ff86f1);
+    font-family: 'Arial', sans-serif;
+}
+
+.app-container {
+    background-color: white;
+    width: 300px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow:  4px 20px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 50px auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: left;
+    color: #49516F;
+}
+
+
+.apps-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.app-item {
+    text-align: center;
+}
+
+.item img {
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.app-item:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.item:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.app-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.add-button {
+    background-color: #00C853;
+    border: none;
+    padding: 8px 10px ;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: #00b506;
+    opacity: 1;
+}
+
+.add-more-button {
+    background-color: #4A7EFF;
+    border: none;
+    padding: 20px 90px;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-more-button:hover {
+    background-color: #3D6FFF;
+}
+
+p {
+    color: #4A7EFF;
+}
